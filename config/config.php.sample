@@ -1,0 +1,9 @@
+<?php
+  $dbHostname = 'localhost';
+  $dbName = 'tetris';
+  $dbUser = 'your-user-name';
+  $dbPassword = 'your-password';
+
+  // used by the statistics page (~/sw/stats), ignored by the game itself
+  $gameName = 'Tetris 1984';
+  $hallOfFameTable = 'rg_tetris1984_hallOfFame';

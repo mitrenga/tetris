@@ -1,0 +1,9 @@
+{
+  "standalone": [
+    "gameWorker.js",
+    "programTexts.js",
+    "rt11Host.js",
+    "tetrisLogic.js",
+    "svision/js/audio/worker/oscilatorWorker.js"
+  ]
+}
