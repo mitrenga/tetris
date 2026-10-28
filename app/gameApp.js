@@ -201,7 +201,11 @@ export class GameApp extends AbstractApp {
       keyboardButtonsBkColor: fg,
       keyboardButtonsHoverColor: fg+'d0',
       keyboardButtonsClickColor: fg+'a0',
-      keyboardButtonsShiftColor: fg+'a0'
+      keyboardButtonsShiftColor: fg+'a0',
+      // the pictograms of SETTINGS are drawn for square pixels; the dot of
+      // the 15IE is pixelAspect times taller than wide, so they are widened
+      // as many times to keep their shape
+      iconScaleX: platform.config.pixelAspect
     };
     this.dialogProperties = TerminalDialogProperties.merge(Object.assign(
       TerminalDialogProperties.cells(font, 20, 9, 40, 8), {
