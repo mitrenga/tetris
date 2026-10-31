@@ -65,7 +65,6 @@ class AboutPage extends AbstractAboutPage {
         ['label' => 'Alexey Pajitnov on Wikipedia', 'url' => 'https://en.wikipedia.org/wiki/Alexey_Pajitnov'],
         ['label' => 'Electronika 60 on Wikipedia', 'url' => 'https://en.wikipedia.org/wiki/Electronika_60'],
         ['label' => 'Tetris Story by Vadim Gerasimov', 'url' => 'https://vadim.oversigma.com/Tetris.htm'],
-        ['label' => 'Retro Games — more classic remakes playable in your browser', 'url' => 'https://retrogames.free/'],
       ],
       'footer' =>
         '<p>An unofficial, non-commercial reconstruction, made as a study of the first Tetris. Tetris was '.
